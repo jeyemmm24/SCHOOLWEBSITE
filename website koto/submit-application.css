@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffbb33;
+}
+/* Submission Section */
+.submission-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.submission-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.submission-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.submission-section a.cta-button {
+    display: inline-block;
+    background-color: #0044cc;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.submission-section a.cta-button:hover {
+    background-color: #0033aa;
+}
+
+/* Footer */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

@@ -1,0 +1,137 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #0044cc;
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffbb33;
+}
+
+/* Main Support Section */
+.support-info {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.support-info h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.support-info p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.support-info h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.support-info ul {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.support-info ul li {
+    margin-bottom: 15px;
+}
+
+.support-info ul li strong {
+    font-weight: bold;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0044cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0033aa;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0044cc;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}

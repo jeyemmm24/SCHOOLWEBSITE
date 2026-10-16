@@ -1,0 +1,111 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #0044cc;
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffbb33;
+}
+
+/* Alumni Section */
+.alumni-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.alumni-section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.alumni-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.alumni-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.alumni-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alumni-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.alumni-card h3 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.alumni-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0044cc;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}

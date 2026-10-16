@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout - AralMuna</title>
+    <link rel="stylesheet" href="logout.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AralMuna</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="logout-section">
+            <div class="container">
+                <h2>You have been successfully logged out.</h2>
+                <p>Thank you for visiting AralMuna. You will be redirected to the homepage shortly.</p>
+                <p>If you are not redirected, click <a href="index.html">here</a> to go back to the homepage.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AralMuna | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript to auto-redirect after logout -->
+    <script>
+        setTimeout(function() {
+            window.location.href = 'index.html';
+        }, 5000);  // Redirect after 5 seconds
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #0044cc;
+  color: white;
+  padding: 20px;}
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffbb33;
+}
+main {
+  padding: 40px 20px;
+}
+.settings h2 {
+  margin-bottom: 20px;
+}
+form {
+  max-width: 400px;
+}
+form label {
+  display: block;
+  margin: 15px 0 5px;
+}
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+form button {
+  background-color: #0044cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #0033aa;
+}
+footer {
+  background: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* Basic styling for the settings page */
+.settings {
+    padding: 40px 20px;
+  }
+  
+  .settings h2 {
+    margin-bottom: 20px;
+  }
+  
+  #settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+  }
+  
+  #settings-form input,
+  #settings-form select,
+  #settings-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #settings-form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #settings-form button:hover {
+    background-color: #004494;
+  }
+  
+  /* Success Message */
+  #response-message {
+    display: none;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  

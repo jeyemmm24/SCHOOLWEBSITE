@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffbb33;
+}
+
+/* Events Section */
+.events-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.event-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.event-card h3 {
+    color: #0044cc;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.event-card strong {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
